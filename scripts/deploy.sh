@@ -12,7 +12,7 @@ fi
 
 echo "----------------------------------------"
 echo "Creating an optimized production React App build..."
-cd ../website || return
+cd ../my-website || return
 npm ci
 npm run build
 echo "----------------------------------------"

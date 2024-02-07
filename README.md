@@ -36,7 +36,9 @@
   <li><strong>Implantar Website Estático:</strong>
     <ul>
       <li>Atualize o diretório `my-website` com os arquivos do seu website estático.</li>
+      <li> Utilize os comando "npm ci" e "npm run build" para fazer o build da aplicação dentro da pasta my-website</li>
       <li>Execute `terraform apply -var="domain=seu-domínio"` para implantar o website, substituindo `seu-domínio` pelo nome do domínio desejado.</li>
+      Obs: Para ajudar na automatização do deploy utilize o script chamado deploy.sh na pasta ./scripts passando como parametro seu dominio -> "./deploy.sh seu-dominio"
     </ul>
   </li>
   <li><strong>Acessar o Website:</strong>
@@ -98,7 +100,9 @@
   <li><strong>Deploy Static Website:</strong>
     <ul>
       <li>Update the `my-website` directory with your static website files.</li>
+      <li>Use the "npm ci" and "npm run build" commands to build the application inside the my-website folder</li>
       <li>Run `terraform apply -var="domain=your-domain"` to deploy the website, replacing `your-domain` with your desired domain name.</li>
+      Note: To help automate deployment, use the script called deploy.sh in the ./scripts folder, passing your domain as a parameter -> "./deploy.sh your-domain"
     </ul>
   </li>
   <li><strong>Access the Website:</strong>
